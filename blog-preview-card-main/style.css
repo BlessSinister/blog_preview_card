@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;600;800&display=swap");
+body {
+  box-sizing: border-box;
+  background: rgb(245, 208, 78);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  padding: 15px;
+  height: 100vh;
+  font-family: "Figtree", sans-serif;
+}
+body .container {
+  max-width: 285px;
+  width: 100%;
+  height: 45vh;
+  transition: all 0.4s;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 7px 7px 0 black;
+  padding: 15px;
+  display: flex;
+  align-items: flex-start;
+  background: white;
+  flex-direction: column;
+}
+body .container .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+  margin-bottom: 25px;
+  height: 170px;
+  max-width: 275px;
+  width: 100%;
+}
+body .container .logo svg {
+  margin-top: 15px;
+  border-radius: 10px;
+}
+body .container .learn {
+  background: rgb(245, 208, 78);
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 13px;
+}
+body .container p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+body .container h3 {
+  margin-top: 0;
+}
+body .container .active-title {
+  color: rgb(245, 208, 78);
+}
+body .container .active-container {
+  box-shadow: 20px 15px 0 black;
+}
+body .container .description {
+  display: flex;
+  margin-top: 0;
+  font-size: 15px;
+  color: hsl(0, 0%, 50%);
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+body .container .name_tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 800;
+}
+body .container .name_tag .name_container img {
+  width: 35px;
+  margin-right: 10px;
+}/*# sourceMappingURL=style.css.map */
